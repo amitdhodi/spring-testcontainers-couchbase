@@ -1,0 +1,14 @@
+server:
+  port: 32083
+
+spring:
+   application :
+        name : CouchbaseContainerTest
+
+couchbase:
+  cluster:
+    bucketName: containerTest
+    ip: localhost
+    password: containerTest
+
+
